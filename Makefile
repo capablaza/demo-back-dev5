@@ -9,6 +9,9 @@ java_memory := -Xmx1024m
 
 all: build run
 
+test:
+	./gradlew test
+
 pre-build:
 	./gradlew build
 
